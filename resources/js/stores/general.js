@@ -1,6 +1,6 @@
-import { defaineStore } from 'pinia';
+import { defineStore } from 'pinia';
 
-export const useGeneralStore = defaineStore('general', {
+export const useGeneralStore = defineStore('general', {
   state: () => ({
       isPostOverlay: false,
       isCropperModal: false,
